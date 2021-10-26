@@ -34,9 +34,9 @@ namespace CreditPand.UI.Controllers
             return View();
         }
 
-        public ActionResult OnePage()
+        public ActionResult Register()
         {
-            ViewBag.Message = "One Page transform.";
+            ViewBag.Message = "Register.";
 
             return View();
         }
